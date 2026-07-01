@@ -1,0 +1,13 @@
+# Godot 4+ cache and exports
+.godot/
+*.import
+export/
+export_presets.cfg
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+*.swp

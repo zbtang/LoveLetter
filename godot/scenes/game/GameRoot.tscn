@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://game_root"]
+
+[ext_resource type="Script" path="res://scripts/application/level_controller.gd" id="1"]
+[ext_resource type="PackedScene" uid="uid://game_hud" path="res://scenes/game/ui/GameHUD.tscn" id="2"]
+
+[node name="GameRoot" type="Node2D"]
+script = ExtResource("1")
+
+[node name="WorldContainer" type="Node2D" parent="."]
+
+[node name="HUD" parent="." instance=ExtResource("2")]
