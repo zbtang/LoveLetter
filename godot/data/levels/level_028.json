@@ -1,0 +1,155 @@
+{
+  "id": 28,
+  "index": 27,
+  "name": "Level 28",
+  "background": {
+    "texture": "res://assets/textures/bg_level28.png",
+    "offset": [
+      0,
+      0
+    ]
+  },
+  "ball_spawn": [
+    100,
+    50
+  ],
+  "next_portal": null,
+  "terrain": {
+    "polygons": [
+      {
+        "vertices": [
+          [
+            102,
+            86
+          ],
+          [
+            114,
+            87
+          ],
+          [
+            114,
+            109
+          ],
+          [
+            101,
+            110
+          ]
+        ]
+      },
+      {
+        "vertices": [
+          [
+            141,
+            87
+          ],
+          [
+            251,
+            86
+          ],
+          [
+            248,
+            109
+          ],
+          [
+            141,
+            110
+          ]
+        ]
+      },
+      {
+        "vertices": [
+          [
+            278,
+            88
+          ],
+          [
+            299,
+            87
+          ],
+          [
+            301,
+            111
+          ],
+          [
+            277,
+            110
+          ]
+        ]
+      }
+    ]
+  },
+  "world_border": {
+    "left": 4,
+    "right_offset_from_bg": 4
+  },
+  "special": {
+    "type": "hust_unique",
+    "polygons": [
+      [
+        [
+          250,
+          308
+        ],
+        [
+          405,
+          130
+        ],
+        [
+          399,
+          198
+        ],
+        [
+          363,
+          277
+        ]
+      ],
+      [
+        [
+          391,
+          225
+        ],
+        [
+          402,
+          200
+        ],
+        [
+          455,
+          264
+        ]
+      ],
+      [
+        [
+          441,
+          178
+        ],
+        [
+          605,
+          183
+        ],
+        [
+          629,
+          267
+        ],
+        [
+          491,
+          264
+        ],
+        [
+          438,
+          208
+        ]
+      ]
+    ],
+    "logo_position": [
+      253,
+      135
+    ],
+    "ball_reset": [
+      397,
+      252
+    ],
+    "logo_texture": "logo",
+    "credits_texture": "the_end"
+  },
+  "skip_letters": false
+}

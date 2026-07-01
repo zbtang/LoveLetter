@@ -1,0 +1,159 @@
+{
+  "id": 27,
+  "index": 26,
+  "name": "Level 27",
+  "background": {
+    "texture": "res://assets/textures/bg_level27.png",
+    "offset": [
+      0,
+      0
+    ]
+  },
+  "ball_spawn": [
+    50,
+    259
+  ],
+  "next_portal": {
+    "position": [
+      730,
+      0
+    ],
+    "half_size": [
+      45,
+      27
+    ],
+    "texture": "res://assets/textures/next.png"
+  },
+  "terrain": {
+    "polygons": [
+      {
+        "vertices": [
+          [
+            44,
+            305
+          ],
+          [
+            123,
+            304
+          ],
+          [
+            123,
+            322
+          ],
+          [
+            43,
+            323
+          ]
+        ]
+      },
+      {
+        "vertices": [
+          [
+            125,
+            258
+          ],
+          [
+            204,
+            258
+          ],
+          [
+            204,
+            275
+          ],
+          [
+            126,
+            275
+          ]
+        ]
+      },
+      {
+        "vertices": [
+          [
+            197,
+            207
+          ],
+          [
+            276,
+            207
+          ],
+          [
+            275,
+            225
+          ],
+          [
+            197,
+            224
+          ]
+        ]
+      },
+      {
+        "vertices": [
+          [
+            271,
+            161
+          ],
+          [
+            349,
+            162
+          ],
+          [
+            350,
+            180
+          ],
+          [
+            271,
+            180
+          ]
+        ]
+      },
+      {
+        "vertices": [
+          [
+            341,
+            124
+          ],
+          [
+            420,
+            125
+          ],
+          [
+            421,
+            141
+          ],
+          [
+            342,
+            141
+          ]
+        ]
+      },
+      {
+        "vertices": [
+          [
+            468,
+            57
+          ],
+          [
+            700,
+            58
+          ],
+          [
+            706,
+            191
+          ],
+          [
+            465,
+            197
+          ]
+        ]
+      }
+    ]
+  },
+  "world_border": {
+    "left": 4,
+    "right_offset_from_bg": 4
+  },
+  "special": {
+    "type": "none"
+  },
+  "skip_letters": false
+}
